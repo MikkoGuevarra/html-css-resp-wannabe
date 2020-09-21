@@ -75,5 +75,26 @@ img {
 /* ----- MEDIAQUERY ----- */
 
 @media all and (max-width: 420px) {
+    .row {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 100px;
+    }
+
+    /* BLOCCO LEZIONI */
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+      width: 100%;
+      float: none;
+    }
+
+    /* BLOCCO STEPS */
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+      float: none;
+      width: 100%;
+    }
 
 }
