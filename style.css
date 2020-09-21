@@ -72,6 +72,7 @@ img {
   clear: both;
 }
 
+
 /* ----- MEDIAQUERY ----- */
 @media all and (max-width: 768px) {
     .row {
@@ -111,6 +112,7 @@ img {
 
 }
 
+
 @media all and (max-width: 420px) {
     .row {
       width: 100%;
@@ -124,6 +126,8 @@ img {
       float: none;
     }
 
+
+
     /* BLOCCO STEPS */
     #steps .row>.left,
     #steps .row>.central,
@@ -135,6 +139,17 @@ img {
     img {
       max-height: 100px;
       /* max-width: 100%; */
+    }
+
+    /* -----modifica dal 768px----- */
+
+    .left {
+        margin-right: 0;
+    }
+
+    .central {
+        margin-left: 0;
+        margin-right: 0px;
     }
 
 
